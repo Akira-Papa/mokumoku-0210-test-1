@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>komorebi | こもれびカフェ&ベーカリー</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="nav">
+    <a href="#" class="logo">komorebi</a>
+    <ul id="navLinks">
+      <li><a href="#menu">メニュー</a></li>
+      <li><a href="#space">空間</a></li>
+      <li><a href="#info">店舗情報</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="メニュー"><span></span><span></span></button>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <img class="hero-bg" src="images/hero.png" alt="">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <p class="hero-sub">Cafe & Bakery</p>
+      <h1>こもれびの中で、<br>ゆっくり味わう一杯。</h1>
+      <p class="hero-desc">自家焙煎コーヒーと焼きたてパン。<br>穏やかな時間が流れる、街の小さなカフェ。</p>
+      <a href="#menu" class="btn">メニューを見る</a>
+    </div>
+  </section>
+
+  <!-- MENU -->
+  <section class="menu" id="menu">
+    <div class="container">
+      <div class="sec-head reveal">
+        <span class="sec-tag">Menu</span>
+        <h2>おすすめメニュー</h2>
+      </div>
+      <div class="menu-grid">
+        <div class="menu-card reveal">
+          <div class="menu-img"><img src="images/croissant.png" alt="クロワッサン"></div>
+          <div class="menu-body">
+            <h3>発酵バターのクロワッサン</h3>
+            <p>フランス産発酵バターを贅沢に使用。外はサクッと、中はしっとり。毎朝6時から焼き上げます。</p>
+            <span class="menu-price">&yen;380</span>
+          </div>
+        </div>
+        <div class="menu-card reveal">
+          <div class="menu-img"><img src="images/matcha.png" alt="抹茶ラテ"></div>
+          <div class="menu-body">
+            <h3>宇治抹茶ラテ</h3>
+            <p>京都・宇治の石臼挽き抹茶をたっぷりと。北海道産ミルクで仕上げた、まろやかな一杯。</p>
+            <span class="menu-price">&yen;580</span>
+          </div>
+        </div>
+        <div class="menu-card reveal">
+          <div class="menu-img"><img src="images/bread.png" alt="サワードウブレッド"></div>
+          <div class="menu-body">
+            <h3>天然酵母のカンパーニュ</h3>
+            <p>自家培養の天然酵母で48時間じっくり発酵。噛むほどに小麦の甘みが広がります。</p>
+            <span class="menu-price">&yen;650</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STORY -->
+  <section class="story">
+    <div class="container">
+      <div class="story-inner reveal">
+        <div class="story-text">
+          <span class="sec-tag">Our Story</span>
+          <h2>一杯のコーヒーから<br>始まる、小さな幸せ。</h2>
+          <p>2018年、東京・蔵前の路地裏に小さなカフェを開きました。「こもれび」という名前には、木漏れ日のようにやさしく、日常にそっと寄り添う場所でありたいという想いを込めています。</p>
+          <p>厳選した豆を自家焙煎し、一杯ずつ丁寧にハンドドリップ。パンは毎朝早朝から仕込み、焼きたてをお届けします。</p>
+        </div>
+        <div class="story-nums">
+          <div class="story-num">
+            <span class="num-val">7</span><span class="num-unit">年目</span>
+            <span class="num-label">開業から</span>
+          </div>
+          <div class="story-num">
+            <span class="num-val">12</span><span class="num-unit">種</span>
+            <span class="num-label">自家焙煎豆</span>
+          </div>
+          <div class="story-num">
+            <span class="num-val">6:00</span><span class="num-unit"></span>
+            <span class="num-label">パン焼き上がり</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SPACE -->
+  <section class="space" id="space">
+    <div class="container">
+      <div class="sec-head reveal">
+        <span class="sec-tag">Space</span>
+        <h2>心地よい空間</h2>
+      </div>
+      <div class="space-visual reveal">
+        <img src="images/interior.png" alt="店内の様子">
+        <div class="space-caption">
+          <p>木のぬくもりと、やわらかな光。<br>本を読んだり、ぼんやりしたり。<br>ここでは、時間がゆっくり流れます。</p>
+        </div>
+      </div>
+      <div class="space-features">
+        <div class="space-feat reveal">
+          <span class="feat-icon">&#9752;</span>
+          <h4>Wi-Fi & 電源完備</h4>
+          <p>お仕事や勉強にもご利用いただけます</p>
+        </div>
+        <div class="space-feat reveal">
+          <span class="feat-icon">&#9834;</span>
+          <h4>こだわりのBGM</h4>
+          <p>ジャズやアコースティックを中心に</p>
+        </div>
+        <div class="space-feat reveal">
+          <span class="feat-icon">&#9749;</span>
+          <h4>テイクアウトOK</h4>
+          <p>全メニューお持ち帰りいただけます</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- INFO -->
+  <section class="info" id="info">
+    <div class="container">
+      <div class="info-inner reveal">
+        <div class="info-text">
+          <span class="sec-tag">Info</span>
+          <h2>店舗情報</h2>
+          <table class="info-table">
+            <tr><th>店名</th><td>komorebi（こもれび）</td></tr>
+            <tr><th>住所</th><td>東京都台東区蔵前 3-14-7<br>蔵前ハウス 1F</td></tr>
+            <tr><th>営業時間</th><td>8:00 - 19:00（L.O. 18:30）</td></tr>
+            <tr><th>定休日</th><td>毎週水曜日</td></tr>
+            <tr><th>電話</th><td>03-6820-1234</td></tr>
+            <tr><th>席数</th><td>22席（テラス4席含む）</td></tr>
+          </table>
+        </div>
+        <div class="info-map">
+          <div class="map-placeholder">
+            <span>&#9673;</span>
+            <p>蔵前駅 A1出口より徒歩3分</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <a href="#" class="logo">komorebi</a>
+      <p>&copy; 2025 komorebi cafe & bakery. All images generated by Nano Banana Pro.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Nav
+    window.addEventListener('scroll', () => {
+      document.getElementById('nav').classList.toggle('scrolled', scrollY > 40);
+    }, { passive: true });
+
+    // Hamburger
+    const hb = document.getElementById('hamburger');
+    const nl = document.getElementById('navLinks');
+    hb.addEventListener('click', () => { hb.classList.toggle('active'); nl.classList.toggle('open'); });
+    nl.querySelectorAll('a').forEach(a => a.addEventListener('click', () => { hb.classList.remove('active'); nl.classList.remove('open'); }));
+
+    // Reveal
+    const obs = new IntersectionObserver(entries => {
+      entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); obs.unobserve(e.target); } });
+    }, { threshold: 0.1 });
+    document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
+
+    // Smooth scroll
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener('click', e => { e.preventDefault(); const t = document.querySelector(a.getAttribute('href')); if (t) { window.scrollTo({ top: t.offsetTop - 68, behavior: 'smooth' }); } });
+    });
+  </script>
+</body>
+</html>
